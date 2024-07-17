@@ -1,0 +1,35 @@
+footer h5 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+footer ul li {
+  margin-bottom: 0.5rem;
+}
+
+footer ul li a {
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+footer ul li a:hover {
+  color: #cccccc;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer a img {
+  filter: invert(100%);
+  transition: filter 0.2s ease-in-out;
+}
+
+footer a img:hover {
+  filter: invert(70%);
+}
+
+.custom-footer {
+  color: white;
+  background-color: #000000;
+}

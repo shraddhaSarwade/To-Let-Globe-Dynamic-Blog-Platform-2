@@ -1,0 +1,31 @@
+.navbar a {
+  font-family: "Poppins" !important;
+}
+
+.custom-navbar {
+  background-color: #000000;
+}
+
+.custom-navbar .navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+.nav-item {
+  margin: 15px;
+  font-size: 20px;
+}
+
+.nav-item:hover {
+  background-color: #5aa79f;
+  border-radius: 20%;
+  box-shadow: 0 0.5em 0.5em -0.5em #5aa79f;
+  transition: 0.2s;
+}
+
+.nav-link:hover {
+  color: black !important;
+}
+
+#navbarborder {
+  border-bottom: 1px solid #2f3846;
+}

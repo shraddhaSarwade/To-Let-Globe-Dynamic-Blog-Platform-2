@@ -1,0 +1,100 @@
+/* .login {
+  color: white;
+  font-size: 35px;
+  font-weight: 700;
+} */
+
+body {
+  background-color: #000;
+}
+
+.login-form-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+
+.login-form {
+  background-color: #000;
+  color: #fff;
+  padding: 32px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+
+  /* Apply fading border using CSS gradient */
+  border: 2px solid;
+  border-image: linear-gradient(to bottom left, #00bdae, black);
+  /* border-image: linear-gradient(to right, #ca9c00, black); */
+
+  /* border-image: linear-gradient(to right, #00bdae, #ca9c00); */
+  border-image-slice: 1; /* Ensures the entire border is covered by the gradient */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Optional: Add a subtle shadow */
+}
+
+.login-form h2 {
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.login-form .form-group {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 24px;
+}
+
+.login-form .form-group .icon {
+  color: #fff;
+  margin-right: 8px;
+}
+
+.login-form .form-control {
+  flex: 1;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #555;
+  border-radius: 0;
+  color: #fff;
+  box-shadow: none;
+}
+
+.login-form .form-control:focus {
+  border-color: #5aa79f;
+  background-color: #000;
+}
+
+.login-form .btn-custom {
+  background-color: #000;
+  color: #cd9f00;
+  border: 2px solid #cd9f00;
+  font-weight: bold;
+  margin-top: 16px;
+  width: 100%;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.login-form .btn-custom:hover {
+  background-color: #cd9f00;
+  color: #000;
+}
+
+.login-form .links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.login-form .links a {
+  color: #5aa79f;
+  text-decoration: none;
+}
+
+.login-form .links a:hover {
+  text-decoration: underline;
+}
+
+.login-form-container .title {
+  text-align: center;
+}

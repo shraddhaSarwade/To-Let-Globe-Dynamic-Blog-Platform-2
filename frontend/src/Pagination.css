@@ -1,0 +1,20 @@
+.page-link {
+  background-color: #171717;
+  border: none;
+  color: white;
+}
+
+.page-link:hover {
+  color: #5aa79f;
+  background-color: #171717;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #5aa79f;
+  color: black;
+}
+
+.pagination .page-item.disabled .page-link {
+  background-color: #171717;
+  color: grey;
+}

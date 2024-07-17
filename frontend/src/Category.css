@@ -1,0 +1,9 @@
+#categoryCard .card-text {
+  color: white;
+}
+
+#categoryCard {
+  margin: 10px calc(25% / 6);
+
+  border: none;
+}

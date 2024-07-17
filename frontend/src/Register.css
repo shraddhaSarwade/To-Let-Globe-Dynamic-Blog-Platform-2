@@ -1,0 +1,124 @@
+body {
+  background-color: #000;
+}
+
+.register-form-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+
+.register-form {
+  background-color: #000;
+  color: #fff;
+  padding: 32px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+
+  /* Apply fading border using CSS gradient */
+  border: 2px solid;
+  border-image: linear-gradient(to bottom left, #00bdae, black);
+  /* border-image: linear-gradient(to right, #ca9c00, black); */
+
+  /* border-image: linear-gradient(to right, #00bdae, #ca9c00); */
+  border-image-slice: 1; /* Ensures the entire border is covered by the gradient */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Optional: Add a subtle shadow */
+}
+
+.register-form h2 {
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.register-form .form-group {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 24px;
+}
+
+.register-form .form-group .icon {
+  color: #fff;
+  margin-right: 8px;
+}
+
+.register-form .form-control {
+  flex: 1;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #555;
+  border-radius: 0;
+  color: #fff;
+  box-shadow: none;
+  transition: border-color 0.3s;
+}
+
+.register-form .form-control:focus {
+  border-color: #5aa79f;
+  background-color: #000;
+  outline: none;
+}
+
+.register-form .btn-custom {
+  background-color: #000;
+  color: #cd9f00;
+  border: 2px solid #cd9f00;
+  font-weight: bold;
+  margin-top: 16px;
+  width: 100%;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.register-form .btn-custom:hover {
+  background-color: #cd9f00;
+  color: #000;
+}
+
+.register-form .links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.register-form .links a {
+  color: #5aa79f;
+  text-decoration: none;
+}
+
+.register-form .links a:hover {
+  text-decoration: underline;
+}
+
+.register-form-container .title {
+  text-align: center;
+}
+
+/* .custom-select .MuiInput-underline:before {
+  border-bottom: 1px solid #555;
+} */
+
+/* .custom-select .MuiInput-underline:after {
+  border-bottom: 2px solid #cd9f00;
+}
+
+.custom-select .MuiInput-underline:hover:not(.Mui-disabled):before {
+  border-bottom: 1px solid #cd9f00; 
+} 
+
+/* Replace #1876d2 with #5aa79f throughout the CSS file */
+/* .register-form .form-control,
+.register-form .btn-custom,
+.register-form .links a {
+  color: #5aa79f;
+}
+
+.custom-select .MuiInput-underline:after,
+.custom-select .MuiInput-underline:hover:not(.Mui-disabled):before {
+  border-bottom: 2px solid #5aa79f;
+}  */
+
+/* .MuiSelect-root:focus {
+  outline: none;
+} */

@@ -1,0 +1,30 @@
+.custom-input {
+  background-color: black;
+  border: 1px solid #5aa79f;
+  color: white;
+
+  /* border-bottom: white; */
+}
+
+.custom-input::placeholder {
+  color: grey;
+  font-size: 15px;
+}
+
+.createBlog {
+  color: #5aa79f;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.custom-form {
+  color: white;
+}
+
+.custom-label {
+  font-size: 20px;
+}
+
+.form-control:focus {
+  background-color: black;
+}

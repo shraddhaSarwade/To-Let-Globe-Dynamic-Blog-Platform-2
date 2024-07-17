@@ -1,0 +1,41 @@
+.card {
+  color: white;
+  background-color: black;
+  border-bottom: 5px solid #2a2a2a;
+  margin: calc(10% / 6);
+}
+
+.card:hover {
+  border-bottom: 5px solid #5aa79f;
+}
+
+/* #nopadding {
+  padding-left: none !important;
+  padding-right: none !important;
+} */
+
+.card-title {
+  color: #5aa79f;
+  margin-bottom: 16px;
+  font-size: 20px;
+}
+
+.readmore {
+  color: #5aa79f;
+  margin-bottom: 16px;
+}
+
+.card-text {
+  color: #999daa;
+  font-size: 17px;
+  line-height: 20px;
+  /* font-weight: lighter; */
+}
+
+.blogmetadata {
+  color: #999daa;
+}
+
+a {
+  color: #999daa;
+}

@@ -1,0 +1,9 @@
+.CategoryContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shift-right {
+  color: white;
+  margin-left: 60px;
+}
