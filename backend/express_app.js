@@ -16,8 +16,7 @@ const cors = require("cors");
 const { storage } = require("./cloudinary");
 
 // // Defining the MongoDB Atlas URL
-const mongoDBURL =
-  process.env.DB_URL || "mongodb://localhost:27017/To-Let-Globe-Blogs";
+const mongoDBURL = process.env.DB_URL;
 // const mongoDBURL = "mongodb://localhost:27017/To-Let-Globe-Blogs";
 
 // Setting up the Database Connection
