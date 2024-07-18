@@ -38,7 +38,9 @@ app.use(express.json());
 app.use(
   cors(
     {
-      origin: "https://to-let-globe-dynamic-blog-platform-m5cm.onrender.com", // Adjust this to match your React frontend URL
+      // origin: "https://to-let-globe-dynamic-blog-platform-m5cm.onrender.com", // Adjust this to match your React frontend URL
+      origin: true, // Adjust this to match your React frontend URL
+
       credentials: true,
     } // Enable credentials (cookies, authorization headers)
   )
