@@ -58,6 +58,7 @@ app.use(
     },
   })
 );
+//Update
 
 // Route for Getting all Blogs Data
 app.get("/blogs", async (req, res) => {
